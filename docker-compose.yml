@@ -4,16 +4,16 @@ services:
     build:
       context: ./frontend
     ports:
-      - "3000:3000"
+      - "3004:3000"
     depends_on:
       - backend
     environment:
-      - NEXT_PUBLIC_BACKEND_URL=http://backend:3001
+      - NEXT_PUBLIC_BACKEND_URL=http://backend:3001/api
 
   backend:
     build:
       context: ./backend
     ports:
-      - "3001:3001"
+      - "3003:3001"
     environment:
       - NODE_ENV=production
