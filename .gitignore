@@ -1,0 +1,38 @@
+# Node.js files
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+**/npm-debug.log
+
+# build files
+frontend/.next/
+frontend/out/
+backend/dist/
+
+# environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# docker files
+docker-compose.override.yml
+**/*.log
+**/*.pid
+
+# IDE and system files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# logs e caches files
+logs/
+*.log
+*.tmp
+.cache/
+
+# Temp uploads
+uploads/

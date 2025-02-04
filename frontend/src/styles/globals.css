@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0B131A; /* Cor de fundo escura */
+  color: #fff;
+  /* background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPgo8cGF0aCBkPSJNNTAwIDUwMEwxMDAwIDAwTDUwMCAwTDQ1NSA1MDBMMTAwMCA5OTVMNTAwIDEwMDBMMCA1MDBMMCA1MDBMMCA1MDBMNDA1IDUwMFoiIGZpbGw9IiMwMDA4ODgiLz4KPC9zdmc+');
+  background-size: 100px 100px; /* Tamanho do padrão */
+  /* background-position: center;
+  background-repeat: repeat;  */
+  /* */ 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

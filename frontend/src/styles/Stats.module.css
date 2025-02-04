@@ -1,0 +1,38 @@
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .statItem {
+    background-color: #1c202b;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+  }
+  
+  .statItem h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .statItem p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .statItem small {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .statItem canvas {
+    height: 100px;
+    width: 100%;
+  }
+  
+  #transactionHistoryChart {
+    height: 100px;
+    width: 100%;
+  }
